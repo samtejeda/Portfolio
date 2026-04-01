@@ -18,7 +18,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                iOS & web developer building apps and experiences people love.
+                Computer Science graduate and mobile & web developer building apps and experiences people love.
               </p>
             </div>
           </div>
