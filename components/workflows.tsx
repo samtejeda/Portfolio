@@ -35,7 +35,7 @@ const projects = [
     tag: "Website",
     title: "Project Management Tool",
     description: "A project management tool that allows users to manage their projects and tasks.",
-    href: "#0",
+    href: "https://samtejeda.vercel.app",
   },
 ];
 
