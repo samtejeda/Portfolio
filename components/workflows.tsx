@@ -5,18 +5,11 @@ import WorflowImg03 from "@/public/images/workflow-03.png";
 import Spotlight from "@/components/spotlight";
 
 const projects = [
-  {
-    img: WorflowImg01,
-    alt: "Project 1",
-    tag: "App Store",
-    title: "Music Keys",
-    description: "A simple music app that displays the chords of a key, useful for musicians that play live",
-    href: "#0",
-  },
+  
   
   {
     img: WorflowImg03,
-    alt: "Project 3",
+    alt: "Project 1",
     tag: "Website",
     title: "URL shortener",
     description: "A URL shortener website that allows users to shorten their URLs. Frontend in Vercel, backend in Railway.",
@@ -24,11 +17,19 @@ const projects = [
   },
   {
     img: WorflowImg01,
-    alt: "Project 4",
+    alt: "Project 2",
     tag: "Website",
     title: "Project Management Tool",
     description: "A project management tool that allows users to manage their projects and tasks.",
     href: "https://huddle-task-manager.vercel.app/login",
+  },
+  {
+    img: WorflowImg01,
+    alt: "Project 3",
+    tag: "App Store",
+    title: "Music Keys",
+    description: "A simple music app that displays the chords of a key, useful for musicians that play live",
+    href: "#0",
   },
 ];
 
