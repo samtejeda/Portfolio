@@ -13,14 +13,7 @@ const projects = [
     description: "A simple music app that displays the chords of a key, useful for musicians that play live",
     href: "#0",
   },
-  {
-    img: WorflowImg02,
-    alt: "Project 2",
-    tag: "App Store",
-    title: "Cinemapedia",
-    description: "A movie app that displays general information about movies.",
-    href: "#0",
-  },
+  
   {
     img: WorflowImg03,
     alt: "Project 3",
