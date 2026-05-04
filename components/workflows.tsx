@@ -6,15 +6,6 @@ import Spotlight from "@/components/spotlight";
 
 const projects = [
   
-  
-  {
-    img: WorflowImg03,
-    alt: "Project 1",
-    tag: "Website",
-    title: "URL shortener",
-    description: "A URL shortener website that allows users to shorten their URLs. Frontend in Vercel, backend in Railway.",
-    href: "https://url-shortener-liart-six.vercel.app/",
-  },
   {
     img: WorflowImg01,
     alt: "Project 2",
@@ -22,6 +13,14 @@ const projects = [
     title: "Project Management Tool",
     description: "A project management tool that allows users to manage their projects and tasks.",
     href: "https://huddle-task-manager.vercel.app/login",
+  },
+  {
+    img: WorflowImg03,
+    alt: "Project 1",
+    tag: "Website",
+    title: "URL shortener",
+    description: "A URL shortener website that allows users to shorten their URLs. Frontend in Vercel, backend in Railway.",
+    href: "https://url-shortener-liart-six.vercel.app/",
   },
   {
     img: WorflowImg01,
