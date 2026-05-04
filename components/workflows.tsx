@@ -26,8 +26,8 @@ const projects = [
     alt: "Project 3",
     tag: "Website",
     title: "URL shortener",
-    description: "A URL shortener website that allows users to shorten their URLs.",
-    href: "#0",
+    description: "A URL shortener website that allows users to shorten their URLs. Frontend in Vercel, backend in Railway.",
+    href: "https://url-shortener-liart-six.vercel.app",
   },
   {
     img: WorflowImg01,
