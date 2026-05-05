@@ -23,7 +23,7 @@ const projects = [
     href: "https://url-shortener-liart-six.vercel.app/",
   },
   {
-    img: WorflowImg04,
+    img: WorflowImg02,
     alt: "Project 3",
     tag: "Website",
     title: "Phishing URL Triage — n8n Workflow",
