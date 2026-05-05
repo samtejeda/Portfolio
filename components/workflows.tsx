@@ -8,7 +8,7 @@ const projects = [
   
   {
     img: WorflowImg01,
-    alt: "Project 2",
+    alt: "Project 1",
     tag: "Website",
     title: "Project Management Tool",
     description: "A project management tool that allows users to manage their projects and tasks.",
@@ -16,11 +16,19 @@ const projects = [
   },
   {
     img: WorflowImg03,
-    alt: "Project 1",
+    alt: "Project 2",
     tag: "Website",
     title: "URL shortener",
     description: "A URL shortener website that allows users to shorten their URLs. Frontend in Vercel, backend in Railway.",
     href: "https://url-shortener-liart-six.vercel.app/",
+  },
+  {
+    img: WorflowImg04,
+    alt: "Project 3",
+    tag: "Website",
+    title: "Phishing URL Triage — n8n Workflow",
+    description: "A URL shortener website that allows users to shorten their URLs. Frontend in Vercel, backend in Railway.",
+    href: "https://phishing-url-triage-production.up.railway.app/",
   },
   {
     img: WorflowImg01,
