@@ -21,7 +21,7 @@ const projects = [
     title: "Task & Project Manager",
     description:
       "Most task apps are either too simple or bloated with features nobody uses. Built a full-stack manager with full CRUD, a component-based React frontend, and a SpringBoot API backed by PostgreSQL — focused on clean data flow and a UI that doesn't get in the way. Deployed to production on Vercel. Live at huddle-task-manager.vercel.app.",
-    href: "https://huddle-task-manager.vercel.app/login",
+    href: "https://github.com/dossantos-am/CSCI-401-Task-Manager",
   },
   {
     img: WorflowImg02,
