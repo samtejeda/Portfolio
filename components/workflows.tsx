@@ -5,37 +5,40 @@ import WorflowImg03 from "@/public/images/workflow-03.png";
 import Spotlight from "@/components/spotlight";
 
 const projects = [
-  
-  {
-    img: WorflowImg01,
-    alt: "Project 1",
-    tag: "Website",
-    title: "Project Management Tool",
-    description: "A project management tool that allows users to manage their projects and tasks.",
-    href: "https://huddle-task-manager.vercel.app/login",
-  },
   {
     img: WorflowImg03,
-    alt: "Project 2",
+    alt: "URL Shortener",
     tag: "Website",
-    title: "URL shortener",
-    description: "A URL shortener website that allows users to shorten their URLs. Frontend in Vercel, backend in Railway.",
+    title: "URL Shortener",
+    description:
+      "Long URLs break in emails, logistics reports, and shared docs — a simple problem that needed a clean, reliable fix. Built a full-stack shortening service from scratch: Node.js REST API, PostgreSQL for persistence, and a minimal frontend — then deployed the frontend on Vercel and the API on Railway. Every link generates, resolves, and stores correctly in production. Live and running.",
     href: "https://url-shortener-liart-six.vercel.app/",
   },
   {
-    img: WorflowImg02,
-    alt: "Project 3",
+    img: WorflowImg01,
+    alt: "Task & Project Manager",
     tag: "Website",
-    title: "Phishing URL Triage — n8n Workflow",
-    description: "A URL shortener website that allows users to shorten their URLs. Frontend in Vercel, backend in Railway.",
+    title: "Task & Project Manager",
+    description:
+      "Most task apps are either too simple or bloated with features nobody uses. Built a full-stack manager with full CRUD, a component-based React frontend, and a SpringBoot API backed by PostgreSQL — focused on clean data flow and a UI that doesn't get in the way. Deployed to production on Vercel. Live at huddle-task-manager.vercel.app.",
+    href: "https://huddle-task-manager.vercel.app/login",
+  },
+  {
+    img: WorflowImg02,
+    alt: "Phishing URL Triage",
+    tag: "Automation",
+    title: "Phishing URL Triage",
+    description:
+      "Manual phishing triage is slow, inconsistent, and doesn't scale. Built an automated n8n workflow that ingests suspicious URLs, runs them through threat intelligence APIs, and outputs structured incident reports — the same process a SOC analyst would run, but automated. Deployed on Railway with a live web interface.",
     href: "https://phishing-url-triage-production.up.railway.app/",
   },
   {
     img: WorflowImg01,
-    alt: "Project 3",
-    tag: "App Store",
+    alt: "Music Keys",
+    tag: "iOS",
     title: "Music Keys",
-    description: "A simple music app that displays the chords of a key, useful for musicians that play live",
+    description:
+      "Chord reference tools online are either ad-cluttered or buried in complexity. Built a native iOS app that gives musicians instant chord progressions by key — clean UI, fast navigation, nothing in the way. Managed the full App Store lifecycle through provisioning and TestFlight — fully built, adding final features before release.",
     href: "#0",
   },
 ];
