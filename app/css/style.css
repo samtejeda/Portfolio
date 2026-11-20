@@ -1,93 +1,58 @@
-@import 'tailwindcss';
-
-/* Additional styles */
-@import './additional-styles/utility-patterns.css' layer(components);
-@import './additional-styles/theme.css';
-
-@plugin "@tailwindcss/forms" {
-  strategy: base;
-}
+@import "tailwindcss";
 
 @theme {
-  --font-inter: var(--font-inter), sans-serif;
-  --font-nacelle: var(--font-nacelle), sans-serif;
+  --font-inter: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Navy palette anchored on the CV accent (#1F3864). Dark surfaces + lighter tints for text. */
+  --color-navy-950: #0a111f;
+  --color-navy-900: #0f192d;
+  --color-navy-800: #1f3864;
+  --color-navy-700: #2a4a82;
+  --color-navy-400: #7f9bd0;
+  --color-navy-300: #a4b8e0;
+  --color-navy-200: #c9d6ee;
 
   --text-xs: 0.8125rem;
   --text-xs--line-height: 1.5384;
   --text-sm: 0.875rem;
   --text-sm--line-height: 1.5715;
-  --text-base: 0.9375rem;
-  --text-base--line-height: 1.5333;
-  --text-base--letter-spacing: -0.0125em;
+  --text-base: 1rem;
+  --text-base--line-height: 1.6;
   --text-lg: 1.125rem;
-  --text-lg--line-height: 1.5;
-  --text-lg--letter-spacing: -0.0125em;
+  --text-lg--line-height: 1.55;
   --text-xl: 1.25rem;
   --text-xl--line-height: 1.5;
-  --text-xl--letter-spacing: -0.0125em;
   --text-2xl: 1.5rem;
-  --text-2xl--line-height: 1.415;
-  --text-2xl--letter-spacing: -0.0268em;
-  --text-3xl: 1.75rem;
-  --text-3xl--line-height: 1.3571;
-  --text-3xl--letter-spacing: -0.0268em;
+  --text-2xl--line-height: 1.4;
+  --text-3xl: 1.875rem;
+  --text-3xl--line-height: 1.25;
   --text-4xl: 2.5rem;
   --text-4xl--line-height: 1.1;
-  --text-4xl--letter-spacing: -0.0268em;
   --text-5xl: 3.5rem;
-  --text-5xl--line-height: 1;
-  --text-5xl--letter-spacing: -0.0268em;
-  --text-6xl: 4rem;
-  --text-6xl--line-height: 1;
-  --text-6xl--letter-spacing: -0.0268em;
-  --text-7xl: 4.5rem;
-  --text-7xl--line-height: 1;
-  --text-7xl--letter-spacing: -0.0268em;
-
-  --animate-shine: shine 5s ease-in-out 500ms infinite;
-  --animate-gradient: gradient 6s linear infinite;
-
-  @keyframes shine {
-    0% {
-      top: 0;
-      transform: scaleY(5);
-      opacity: 0;
-    }
-    10% {
-      opacity: 0.8;
-    }
-    20% {
-      top: 100%;
-      transform: scaleY(10);
-      opacity: 0;
-    }
-    100% {
-      top: 100%;
-      transform: scaleY(1);
-      opacity: 0;
-    }
-  }
-  @keyframes gradient {
-    to {
-      background-position: 200% center;
-    }
-  }
+  --text-5xl--line-height: 1.05;
 }
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
   *,
   ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+  ::before {
+    border-color: var(--color-navy-800);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-navy-300);
+    outline-offset: 3px;
+    border-radius: 4px;
   }
 }

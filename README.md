@@ -1,19 +1,21 @@
-# Portfolio — Sam Tejeda
+# Portfolio — Samuel Tejeda
 
-Personal portfolio site built with Next.js, Tailwind CSS, and deployed on Vercel.
+Personal portfolio site built with Next.js (App Router) and Tailwind CSS v4, deployed on Vercel.
 
 **Live:** [samtejeda.vercel.app](https://samtejeda.vercel.app)
 
-## Stack
+## Updating content
 
-- Next.js (App Router)
-- Tailwind CSS v4
-- Deployed on Vercel
+All site copy (profile, experience, featured work, education, skills) lives in one typed file: [`data/content.ts`](data/content.ts). Components only render it.
+
+- The CV is linked at `/Samuel_Tejeda_Valencia_CV.pdf`. Drop the PDF in `public/` with that name.
+- Do not add links, screenshots or real data for Vista Assessments work (client confidentiality).
 
 ## Running locally
 
 ```bash
+npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000).
